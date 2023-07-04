@@ -27,3 +27,13 @@ url = "/posts/"
 name = "github"
 url = "https://github.com/frogpen"
 #...more
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
