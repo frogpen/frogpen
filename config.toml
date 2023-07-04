@@ -8,7 +8,7 @@ title = "My First Post"
 #設定網站標題
 
 buildDrafts = false
-theme = "Papermod"
+theme = "PaperMod"
 #是否產生草稿(建議選否)
 [params.profileMode]
 enabled = true
