@@ -1,0 +1,39 @@
+baseurl = "https://frogpen.github.io" 
+#設定主頁 url
+
+languageCode = "zh-tw" 
+#設定 Blog 語言
+
+title = "My First Post"
+#設定網站標題
+
+buildDrafts = false
+theme = "Papermod"
+#是否產生草稿(建議選否)
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/name.gif"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+	
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/frogpen"
+#...more
+
+[[menu.main]]
+
+identifier = "tags"
+
+name = "tags"
+
+url = "/tags/"
+
+weight = 10
